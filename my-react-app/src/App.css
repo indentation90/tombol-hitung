@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.container button {
+  padding: 0.5rem 1rem;
+  font-size: 1.5rem;
+  color: white; /* Mengatur warna teks menjadi putih */
+}
+
+.container .button-decrement {
+  background-color: red; /* Mengatur warna latar tombol decrement menjadi merah */
+}
+
+.container .button-increment {
+  background-color: green; /* Mengatur warna latar tombol increment menjadi hijau */
+}
+
+.container span {
+  padding: 0.5rem 1rem;
+}
